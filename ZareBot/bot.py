@@ -13,7 +13,7 @@ async def on_ready():
     activity = discord.Game(name="Watching out for attacks", type=3)
     await client.change_presence(status=discord.Status.online, activity=activity)
     print("\033[1;31;40mZareBot now successfully started!")
-    print("\033[1;33;40m                   \033[1;30;40mCoded by M0ba.")
+    print("\033[1;33;40m                   \033[1;30;40mCoded by Dividend.")
 
 @client.event
 async def on_command_error(ctx, error):
@@ -58,7 +58,7 @@ async def help(ctx):
         ).set_thumbnail(
             url = "https://images-ext-1.discordapp.net/external/PdPB_vtwsCqKqqI5II7dI72GBTC6eVNbtS6tBhcpWB4/https/image.prntscr.com/image/OlVPfoW3TPWYkUCcc-EBNQ.png"
         ).set_footer(
-            text = f"Requested by {ctx.author} -  ZareBot by M0ba"
+            text = f"Requested by {ctx.author} -  ZareBot"
         )
 
         await ctx.send(embed=embed)
