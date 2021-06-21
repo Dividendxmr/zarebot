@@ -1,6 +1,6 @@
 # zarebot
 
-A Simple discord bot written in python utilizing the zare api
+A Simple discord bot written in python3 utilizing the zare api
 
 
 You must change the attack channel in the bot.py and also the token etc etc 
